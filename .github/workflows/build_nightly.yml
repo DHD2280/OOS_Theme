@@ -35,7 +35,7 @@ jobs:
           versionName: "${{ env.VERSION_NAME }} (#${{github.run_number}})"
 
       - name: Write sign info
-        if: github.repository == 'tugaia56/AS_Theme'
+        if: github.repository == 'tugaia56/OOS_Theme'
         run: |
           if [ ! -z "${{ secrets.KEYSTORE }}" ]; then
             echo storePassword='${{ secrets.KEYSTORE_PASSWORD }}' >> keystore.properties
@@ -46,15 +46,15 @@ jobs:
           fi
 
       - name: Build release with Gradle
-        if: github.repository == 'tugaia56/AS_Theme'
+        if: github.repository == 'tugaia56/OOS_Theme'
         run: ./gradlew assembleRelease
 
       - name: Build debug with Gradle
-        if: github.repository == 'tugaia56/AS_Theme'
+        if: github.repository == 'tugaia56/OOS_Theme'
         run: ./gradlew assembleDebug
 
       - name: Upload release Build Artifact
-        if: github.repository == 'tugaia56/AS_Theme'
+        if: github.repository == 'tugaia56/OOS_Theme'
         uses: actions/upload-artifact@v4
         with:
           name: "Dark Shadow Theme ${{ env.VERSION_NAME }} Dev (#${{github.run_number}})"
@@ -62,7 +62,7 @@ jobs:
           if-no-files-found: error
 
       - name: Upload debug Build Artifact
-        if: github.repository == 'tugaia56/AS_Theme'
+        if: github.repository == 'tugaia56/OOS_Theme'
         uses: actions/upload-artifact@v4
         with:
           name: "Dark Shadow Theme ${{ env.VERSION_NAME }} Dev (#${{github.run_number}}) Debug"
