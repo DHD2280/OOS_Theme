@@ -22,11 +22,11 @@ touch Tchangelog.htm
 # copy the changelog xml into new md
 echo "$(cat $EN_CHANGELOG)" >> changeLog.md
 # let's work on custom strings
-sed -i 's\        <item>ADDED:\## Added\g' changeLog.md
-sed -i 's\        <item>UPDATED:\## Updated\g' changeLog.md
-sed -i 's\        <item>REMOVED:\## Removed\g' changeLog.md
+sed -i 's\^.*<item>ADDED:\## Added\g' changeLog.md
+sed -i 's\^.*<item>UPDATED:\## Updated\g' changeLog.md
+sed -i 's\^.*<item>REMOVED:\## Removed\g' changeLog.md
 # remove <item> tag
-sed -i 's\        <item>\### \g' changeLog.md
+sed -i 's\^.*<item>\### \g' changeLog.md
 # remove ending </item> tag
 sed -i 's\</item>\\g' changeLog.md
 # remove first 4 lines (xml, resources, string-array and versioning)
