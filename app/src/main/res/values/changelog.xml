@@ -2,8 +2,6 @@
 <resources>
     <string-array name="ThemeChangelog">
         <item>Version 6.3.0</item>
-        <item>ADDED:</item>
-        <item>- - -</item>
         <item>UPDATED:</item>
         <item>Fixed some existing errors</item>
         <item>Smart Sidebar v16.7.1</item>
