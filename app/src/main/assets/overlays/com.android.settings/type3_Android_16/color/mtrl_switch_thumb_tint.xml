@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="false" android:color="@*android:color/search_url_text_pressed" />
+    <item android:state_enabled="false" android:state_checked="true" android:color="@*android:color/legacy_control_activated" />
+    <item android:state_checked="true" android:state_pressed="true" android:color="@*android:color/accent_material_dark" />
+    <item android:state_checked="true" android:color="@*android:color/accent_material_dark" />
+    <item android:state_pressed="true" android:color="@*android:color/legacy_control_activated" />
+    <item android:color="@null" />
+</selector>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="ActionPrimaryButton" parent="@*android:style/Widget.Material.Button">
-        <item name="android:background">@*android:drawable/btn_media_player_selected</item>
+        <item name="android:background">@*android:drawable/btn_default_small_normal</item>
         <item name="android:tint">@*android:color/transparent</item>
         <item name="android:alpha">1.0</item>
     </style>
@@ -28,7 +28,7 @@
         <item name="android:navigationBarColor">#00000000</item>
         <item name="android:navigationBarDividerColor">#00000000</item>
     </style>
-    <style name="TextAppearance.CategoryTitle" parent="@*android:style/TextAppearance.Holo.Light.Small">
+    <style name="TextAppearance.CategoryTitle" parent="@*android:style/TextAppearance.DeviceDefault.Title">
         <item name="android:textSize">11.0sp</item>
         <item name="android:textStyle">italic</item>
         <item name="android:textColor">@*android:color/accent_material_dark</item>

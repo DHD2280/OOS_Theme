@@ -95,7 +95,7 @@
     <color name="disabled_contact_list_name_text">#ffbebebe</color>
     <color name="divider_line_color_light">#00000000</color>
     <color name="drawer_divider_color">#00000000</color>
-    <color name="drawer_selected_color">#ff606060</color>
+    <color name="drawer_selected_color">@*android:color/background_leanback_dark</color>
     <color name="editor_disabled_text_color">#ffbebebe</color>
     <color name="editor_icon_color">#ffdddddd</color>
     <color name="empty_state_background">@*android:color/background_dark</color>
@@ -107,8 +107,8 @@
     <color name="foreground_material_dark">@*android:color/white</color>
     <color name="foreground_material_light">@*android:color/white</color>
     <color name="frequently_contacted_title_color">@*android:color/accent_material_dark</color>
-    <color name="group_primary_color">@*android:color/accent_material_dark</color>
-    <color name="group_primary_color_dark">@*android:color/accent_material_dark</color>
+    <color name="group_primary_color">#00ff00</color>
+    <color name="group_primary_color_dark">#ff00ff</color>
     <color name="highlighted_text_material_dark">#66777777</color>
     <color name="highlighted_text_material_light">#66777777</color>
     <color name="ic_add_contact_shortcut_background">@*android:color/background_dark</color>

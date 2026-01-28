@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@*android:color/search_url_text_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@*android:id/background">
+        <layer-list android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:paddingMode="stack">
+            <item>
+                <shape>
+                    <corners android:radius="24.0dip" />
+                    <solid android:color="@*android:color/background_floating_material_light" />
+                    <stroke android:width="1.5dip" android:color="@*android:color/accent_material_dark" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</ripple>

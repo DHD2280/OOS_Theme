@@ -4,4 +4,10 @@
         <item name="android:background">@*android:color/transparent</item>
     </style>
     <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+    <style name="Seekbar.SettingsLib" parent="@*android:style/Widget.Material.SeekBar">
+        <item name="android:progressTint">@*android:color/accent_material_dark</item>
+        <item name="android:progressBackgroundTint">@*android:color/search_url_text_normal</item>
+        <item name="android:progressBackgroundTintMode">src_over</item>
+        <item name="android:thumbTint">@*android:color/accent_material_dark</item>
+    </style>
 </resources>

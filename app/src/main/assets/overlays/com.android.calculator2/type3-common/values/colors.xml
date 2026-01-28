@@ -12,7 +12,7 @@
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_material_dark">@*android:color/white</color>
     <color name="bright_foreground_material_light">@*android:color/black</color>
-    <color name="button_material_dark">@*android:color/button_material_dark</color>
+    <color name="button_material_dark">@*android:color/button_material_light</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="call_notification_answer_color">@*android:color/accent_material_dark</color>
     <color name="call_notification_decline_color">@*android:color/holo_red_dark</color>
@@ -226,7 +226,7 @@
     <color name="m3_ref_palette_neutral0">@*android:color/background_dark</color>
     <color name="m3_ref_palette_neutral10">#ff1d1b20</color>
     <color name="m3_ref_palette_neutral100">#ffffffff</color>
-    <color name="m3_ref_palette_neutral12">@*android:color/button_material_dark</color>
+    <color name="m3_ref_palette_neutral12">@*android:color/button_material_light</color>
     <color name="m3_ref_palette_neutral17">@*android:color/background_dark</color>
     <color name="m3_ref_palette_neutral20">@*android:color/background_dark</color>
     <color name="m3_ref_palette_neutral22">@*android:color/background_dark</color>
@@ -390,7 +390,7 @@
     <color name="m3_sys_color_dynamic_dark_primary">#fff000</color>
     <color name="m3_sys_color_dynamic_dark_primary_container">@*android:color/accent_material_dark</color>
     <color name="m3_sys_color_dynamic_dark_secondary">#00ffff</color>
-    <color name="m3_sys_color_dynamic_dark_secondary_container">@*android:color/button_material_dark</color>
+    <color name="m3_sys_color_dynamic_dark_secondary_container">@*android:color/button_material_light</color>
     <color name="m3_sys_color_dynamic_dark_surface">@*android:color/background_dark</color>
     <color name="m3_sys_color_dynamic_dark_surface_bright">#00e676</color>
     <color name="m3_sys_color_dynamic_dark_surface_container">@*android:color/background_dark</color>
@@ -399,7 +399,7 @@
     <color name="m3_sys_color_dynamic_dark_surface_container_low">#2e7d32</color>
     <color name="m3_sys_color_dynamic_dark_surface_container_lowest">#388e3c</color>
     <color name="m3_sys_color_dynamic_dark_surface_dim">#43a047</color>
-    <color name="m3_sys_color_dynamic_dark_surface_variant">@*android:color/button_material_dark</color>
+    <color name="m3_sys_color_dynamic_dark_surface_variant">@*android:color/button_material_light</color>
     <color name="m3_sys_color_dynamic_dark_tertiary">#66bb6a</color>
     <color name="m3_sys_color_dynamic_dark_tertiary_container">#cc0000</color>
     <color name="m3_sys_color_dynamic_light_background">#81c784</color>
