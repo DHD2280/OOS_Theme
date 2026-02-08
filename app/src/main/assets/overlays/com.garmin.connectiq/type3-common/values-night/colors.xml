@@ -60,6 +60,18 @@
     <color name="default_text_opacity_7">#b3f4f4f4</color>
     <color name="default_text_opacity_8">#ccf4f4f4</color>
     <color name="default_text_opacity_9">#e6f4f4f4</color>
+    <color name="gcm_button_secondary_text_disabled">#80ffffff</color>
+    <color name="gcm_chart_legend_pacepro_color">#bfffffff</color>
+    <color name="gcm_chart_legend_pacepro_power_color">#bfffffff</color>
+    <color name="gcm_chart_legend_related_color">#bfffffff</color>
+    <color name="gcm_chart_legend_stamina_color">#bfffffff</color>
+    <color name="gcm_dialog_icon_action">@*android:color/accent_material_dark</color>
+    <color name="gcm_hydration_wave_color">@*android:color/background_dark</color>
+    <color name="gcm_snackbar_surface">#fffbfbfb</color>
+    <color name="gcm_snackbar_text_action">@*android:color/accent_material_dark</color>
+    <color name="gcm_snackbar_text_primary">@*android:color/background_dark</color>
+    <color name="gcm_switch_thumb_primary_action_checked_disabled">#ff37618a</color>
+    <color name="gcm_switch_track_primary_action_checked_disabled">#610688cb</color>
     <color name="gds_data_viz_blue_secondary">@*android:color/accent_material_dark</color>
     <color name="gds_data_viz_green_primary">#ff0b963f</color>
     <color name="gds_data_viz_green_secondary">#ff60d275</color>
@@ -132,6 +144,7 @@
     <color name="icon_4_opacity_7">#b3908dff</color>
     <color name="icon_4_opacity_8">#cc908dff</color>
     <color name="icon_4_opacity_9">#e6908dff</color>
+    <color name="legal_actionbar_icon_color">#fff4f4f4</color>
     <color name="lime_50">#ffe9fac8</color>
     <color name="lime_50_opacity_1">#1ae9fac8</color>
     <color name="lime_50_opacity_2">#33e9fac8</color>

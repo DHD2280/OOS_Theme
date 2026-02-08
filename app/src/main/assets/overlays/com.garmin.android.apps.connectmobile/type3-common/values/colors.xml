@@ -140,7 +140,7 @@
     <color name="button_material_dark">@*android:color/button_material_dark</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="caldroid_333">@*android:color/button_material_dark</color>
-    <color name="caldroid_555">@*android:color/button_material_dark</color>
+    <color name="caldroid_555">@*android:color/button_material_light</color>
     <color name="caldroid_black">@*android:color/background_dark</color>
     <color name="caldroid_darker_gray">#ffaaaaaa</color>
     <color name="caldroid_gray">#ffcccccc</color>
@@ -285,9 +285,9 @@
     <color name="gcm_activity_yoga_card_gradient_end">#ff0c7daf</color>
     <color name="gcm_activity_yoga_card_gradient_start">#ff11a9ed</color>
     <color name="gcm_button_text_disabled">#80ffffff</color>
-	    <color name="gcm_card_gradient_light_blue_end">#ff11a9ed</color>
-	    <color name="gcm_card_gradient_light_blue_start">#ff73d4ff</color>
-	    <color name="gcm_challenges_joined_background">@*android:color/background_dark</color>
+    <color name="gcm_card_gradient_light_blue_end">#ff11a9ed</color>
+    <color name="gcm_card_gradient_light_blue_start">#ff73d4ff</color>
+    <color name="gcm_challenges_joined_background">@*android:color/background_dark</color>
     <color name="gcm_chart_default_fill_gradient_start_color">#0d000000</color>
     <color name="gcm_chart_gray_bar_color">#ffe6e6e6</color>
     <color name="gcm_chart_sleep_shade">#2654a9fe</color>
@@ -298,7 +298,7 @@
     <color name="gcm_light_green_section">#ffb4d260</color>
     <color name="gcm_loading_placeholder_animation">#ffe6e6e6</color>
     <color name="gcm_map_legend_background">#fffbfbfb</color>
-	    <color name="gcm_pregnancy_icon_color">#ff11b886</color>
+    <color name="gcm_pregnancy_icon_color">#ff11b886</color>
     <color name="gcm_progress_bullet_disconnected_color">#ff888888</color>
     <color name="gcm_reports_chart_gradient_end">#fff0a13b</color>
     <color name="gcm_reports_chart_gradient_start">#ffdf8430</color>
@@ -423,7 +423,7 @@
     <color name="gray_50_static_opacity_7">#b3515151</color>
     <color name="gray_50_static_opacity_8">#cc515151</color>
     <color name="gray_50_static_opacity_9">#e6515151</color>
-    <color name="gray_55_static">#00ff00</color>
+    <color name="gray_55_static">@*android:color/background_dark</color>
     <color name="gray_55_static_opacity_1">#1a1b2029</color>
     <color name="gray_55_static_opacity_2">#331b2029</color>
     <color name="gray_55_static_opacity_3">#4d1b2029</color>
@@ -1626,7 +1626,7 @@
     <color name="surface_background_opacity_7">#b3efefef</color>
     <color name="surface_background_opacity_8">#ccefefef</color>
     <color name="surface_background_opacity_9">#e6efefef</color>
-    <color name="switch_thumb_disabled_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>

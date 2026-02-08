@@ -30,7 +30,7 @@
     <color name="colorErrorContainerLight">#fff9dedc</color>
     <color name="colorOnErrorContainerDark">#fff9dedc</color>
     <color name="colorOnErrorContainerLight">#ff410e0b</color>
-    <color name="colorSuccess">@*android:color/system_accent1_400</color>
+    <color name="colorSuccess">@*android:color/accent_material_dark</color>
     <color name="cpv_color_primary">@*android:color/accent_material_dark</color>
     <color name="cpv_color_secondary">@*android:color/system_accent2_300</color>
     <color name="cpv_color_tertiary">@*android:color/system_accent3_300</color>

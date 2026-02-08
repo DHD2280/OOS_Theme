@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="ThemeChangelog">
-        <item>Versione 6.5.0</item>
+        <item>Versione 6.6.0</item>
         <item>AGGIUNTO:</item>
-        <item>Internet Browser OnePlus v43.13.6.1</item>
+        <item>- - -</item>
         <item>MODIFICATO:</item>
-        <item>Android 16 Impostazioni</item>
-        <item>Sistema Android 16 (Fissato crash crDroid Home)</item>
-        <item>Android 16 Sistemate Molte App di Sistema</item>
-        <item>Android 16 lavoro in progresso, alcune app di sistema hanno, bisogno di FIX</item>
-        <item>Tether Tplink v4.12.133</item>
-        <item>OOS Colori della Tastiera Pin</item>
+        <item>Assistente Giochi v10.25.3</item>
+        <item>AIMP v4.25.1665</item>
     </string-array>
 </resources>

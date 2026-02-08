@@ -364,7 +364,7 @@
     <color name="md_dark_secondaryFixedDim">#ffc6c6c6</color>
     <color name="md_dark_surface">@*android:color/background_dark</color>
     <color name="md_dark_surfaceBright">#ff393939</color>
-    <color name="md_dark_surfaceContainer">@*android:color/button_material_dark</color>
+    <color name="md_dark_surfaceContainer">@*android:color/background_dark</color>
     <color name="md_dark_surfaceContainerHigh">@*android:color/button_material_dark</color>
     <color name="md_dark_surfaceContainerHighest">@*android:color/holo_light_primary_dark</color>
     <color name="md_dark_surfaceContainerLow">@*android:color/background_dark</color>
