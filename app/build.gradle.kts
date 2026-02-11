@@ -112,7 +112,7 @@ android {
         variant.outputs
             .map { it as com.android.build.gradle.internal.api.BaseVariantOutputImpl }
             .forEach { output ->
-                val outputFileName = "Dark_Shadow_Theme.apk"
+                val outputFileName = "Dark_Shadow_Theme_6.5.3.apk"
                 output.outputFileName = outputFileName
             }
     }
